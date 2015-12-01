@@ -1,3 +1,3 @@
-# prisoner_hat
+# Prisoner Hat Riddle
 My solution to the prisoner hat riddle in python
 Explanation of the "Prisoner Hat" Riddle: https://youtu.be/N5vJSNXPEwA
