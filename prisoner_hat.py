@@ -12,7 +12,6 @@ def find_parity(known):
         parity = 'even'
     else:
         parity = 'odd'
-    # parity = 'odd'
     print "parity: " + parity
     return parity
 
@@ -20,7 +19,7 @@ def my_hat(n, i, success_min):
     incorrect = 0
     correct = 0
     while i < len(n):
-        # riddle logic
+        # start riddle logic
         known = n[i+1:]
         known_parity = find_parity(known)
         if i == 0:
@@ -59,8 +58,8 @@ def my_hat(n, i, success_min):
         answers.append(guess)
         print "guess: " + guess
         print "answers: " + str(answers)
+        # end riddle logic
 
-        # riddle logic
         if guess == n[i]:
             correct += 1
             print "correct: " + str(correct)
